@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla car website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="#model3" class="logo">TESLA</a>
+    <ul class="nav-links">
+      <li><a href="#models">Model S</a></li>
+      <li><a href="#model3">Model 3</a></li>
+      <li><a href="#modelx">Model X</a></li>
+      <li><a href="#modely">Model Y</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="panel" id="model3">
+    <img src="Tesla model 3.jpeg" alt="Tesla Model 3" class="panel-bg">
+    <div class="content">
+      <h1>Model 3</h1>
+      <p>Order online for touchless delivery</p>
+      <div class="buttons">
+        <button class="btn btn-dark">Order Now</button>
+        <button class="btn btn-light">Demo Drive</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="modely">
+    <img src="Tesla model y.jpeg" alt="Tesla Model Y" class="panel-bg">
+    <div class="content">
+      <h2>Model Y</h2>
+      <p>Schedule a demo drive</p>
+      <div class="buttons">
+        <button class="btn btn-dark">Order Now</button>
+        <button class="btn btn-light">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="models">
+    <img src="Tesla model s.avif" alt="Tesla Model S" class="panel-bg">
+    <div class="content">
+      <h2>Model S</h2>
+      <p>Schedule a demo drive</p>
+      <div class="buttons">
+        <button class="btn btn-dark">Order Now</button>
+        <button class="btn btn-light">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="modelx">
+    <img src="Tesla model x.jpg" alt="Tesla Model X" class="panel-bg">
+    <div class="content">
+      <h2>Model X</h2>
+      <p>Schedule a demo drive</p>
+      <div class="buttons">
+        <button class="btn btn-dark">Order Now</button>
+        <button class="btn btn-light">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="offers">
+    <article class="offer-card">
+      <div class="offer-text">
+        <h3>Current Offer</h3>
+        <p>Explore limited-time offers on Tesla vehicles.</p>
+        <button class="btn btn-soft">Learn More</button>
+      </div>
+      <img src="imgage.avif" alt="Current offer">
+    </article>
+
+    <article class="offer-card">
+      <div class="offer-text">
+        <h3>American Heroes</h3>
+        <p>$500 off for military, first responders, health workers, teachers and students.</p>
+        <button class="btn btn-soft">Learn More</button>
+      </div>
+      <img src="image 1.avif" alt="American Heroes offer">
+    </article>
+  </section>
+  <div class="modal" id="modal" hidden>
+  <div class="modal-box">
+    <h3 id="modal-title">Order</h3>
+    <p>Apna email daalo, hum aapse contact karenge.</p>
+    <input type="email" id="modal-email" placeholder="you@example.com">
+    <p class="modal-msg" id="modal-msg"></p>
+    <div class="modal-actions">
+      <button class="btn btn-dark" id="modal-send">Submit</button>
+      <button class="btn btn-soft" id="modal-close">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+
+</main>
+
+<footer class="footer">
+  <p>Tesla &copy; 2026</p>
+</footer>
+
+</body>
+</html>
